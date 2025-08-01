@@ -7,15 +7,20 @@ This project is part of the **PRODIGY ML Internship** and demonstrates a basic m
 
 ## 📁 Project Structure
 
+PRODIGY_ML_01/
 │
 ├── Dataset/
-│ ├── train.csv # Training data
-│ ├── test.csv # Test data
-│ ├── sample_submission.csv # Submission format
+│   ├── train.csv               # Training dataset
+│   ├── test.csv                # Test dataset
+│   ├── sample_submission.csv   # Sample submission format
+│   └── data_description.txt    # Dataset feature descriptions
 │
-├── Task_01.py # Main ML script
-├── predicted_prices.csv # Output predictions (after running script)
-└── README.md # Project overview (this file)
+├── Task_01.py                  # Python script for house price prediction
+├── predicted_prices.csv        # Output predictions generated from the model
+├── README.md                   # Project documentation (you're reading it!)
+│
+└── .gitignore                  # Files/folders ignored by Git (if any)
+
 
 
 ---
